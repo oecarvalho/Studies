@@ -1,4 +1,5 @@
 import Formulario from "./components/Formulario";
+import Lista from "./components/Lista";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Formulario/>
+      <Lista/>
     </>
   )
 }
