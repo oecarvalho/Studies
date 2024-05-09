@@ -1,8 +1,11 @@
+import botao from './Botao.module.scss'
 
-export default function Botao(){
+
+
+export default function Botao(props: {texto:string}){
     return(
-        <button>
-            Botão
+        <button className={botao.botao}>
+            {props.texto}
         </button>
     )
 }
